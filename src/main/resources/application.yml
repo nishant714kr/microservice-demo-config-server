@@ -1,0 +1,18 @@
+server:
+  port: 4000
+spring:
+  application:
+    name: MS-CONFIG-SERVER
+
+  cloud:
+    config:
+      server:
+        git:
+          # Git repo location - server
+          uri: https://github.com/nishant714kr/microservice-demo-config-server
+          # Git repo location - local
+          # uri: C:/Users/7759892424/Documents/workspace/workspace-springboot-step-by-step/microservice-demo-config-server
+
+
+  
+
